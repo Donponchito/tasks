@@ -1,7 +1,4 @@
 //: Playground - noun: a place where people can play
-import Darwin.C.math
-var a=0
-var i: Decimal = 0
 var n=18
 var k=0
 while n != 0
@@ -11,14 +8,8 @@ if n%2==0 || n%2==1
 k=n%2
     }
     n=n/2
-    
-    a=a+k * pow(10, i)
-    i+=1
-    print(a)
+    print(k, terminator:"")
 }
-print(a)
-
-
 
 
 
