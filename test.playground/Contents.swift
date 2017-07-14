@@ -1,4 +1,15 @@
 //: Playground - noun: a place where people can play
+var a=0
+var n=1397
+while n != 0
+{ a=n%10
+n=n/10
+    print(a, terminator:"")
+}
+
+
+
+/*
 var n=18
 var k=0
 while n != 0
@@ -10,7 +21,7 @@ k=n%2
     n=n/2
     print(k, terminator:"")
 }
-
+*/
 
 
 /*
