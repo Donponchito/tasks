@@ -1,12 +1,45 @@
 //: Playground - noun: a place where people can play
+
+var n=100
+var sum=0
 var a=0
+for i in 1...n
+{ a=i
+  var  m=0
+    while a > 0
+    {
+    m = m*10+(a%10)
+        a = a/10
+    }
+    if m == i
+    {
+    sum = sum+1
+    }
+    
+}
+print(sum)
+
+/*
+ var n=35017
+var m=0
+while n > 0
+{
+m = m*10+(n%10)
+    n=n/10
+}
+print(m)
+*/
+
+
+/*
+ var a=0
 var n=1397
 while n != 0
 { a=n%10
 n=n/10
     print(a, terminator:"")
 }
-
+*/
 
 
 /*
