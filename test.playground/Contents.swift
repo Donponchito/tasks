@@ -1,4 +1,23 @@
 //: Playground - noun: a place where people can play
+
+var  n=7
+var i=0
+var k=0
+var s=1
+while i <= n
+{
+if s >= n
+{
+    print(k)
+    break
+    }
+    s=s*2
+    k=k+1
+    
+}
+
+
+
 /*
 var n=96
 var flag=true
