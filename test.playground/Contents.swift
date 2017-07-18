@@ -1,5 +1,67 @@
 //: Playground - noun: a place where people can play
+var n=4
+while n > 0
+{
+    n=n/2
+    if n == 1
+    {
+    print("YES")
+    }
+    else
+    { print("NO")
+    }
 
+}
+
+/*
+var n=50
+var m=1
+while m < n
+{
+    print(m)
+    m=m*2
+}
+*/
+
+/*
+var n=10
+var m=2
+while m <= n
+{
+if n%m==0
+{
+    print(m)
+    break   }
+
+    m+=1
+}
+*/
+/*
+var n=19
+var a=1
+while a <= n
+{
+    if   a*a <= n
+    {
+        print(a*a)
+    }
+    a+=1
+}
+*/
+
+/*
+ var m=2
+var x=15
+while  m <= x
+{
+    if x%m == 0
+    {
+        print(m)
+        break   }
+    
+}
+*/
+/*
 var n=100
 var sum=0
 var a=0
@@ -18,7 +80,7 @@ for i in 1...n
     
 }
 print(sum)
-
+*/
 /*
  var n=35017
 var m=0
@@ -163,24 +225,6 @@ else
 print("net")
 }
 */
-
-/*
- var a=0
-var x=10
-for index in 1...x
-{
-a=
-    
-    
-    
-    print(index)
-
-
-}
-*/
-
-
-
 
 
 
