@@ -1,18 +1,23 @@
 //: Playground - noun: a place where people can play
-var n=9
+var n=5
+var flag=true
 while n != 1
 {
     if n%2==0
     {
+        flag=true
     n=n/2
     }
-    else {
     
-    }
 }
-print("YEs")
+if flag==true
+    { print("YEs")
+}
+else
+{
+    print("no")
 
-
+}
 
 
 
