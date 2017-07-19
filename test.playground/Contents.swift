@@ -1,5 +1,25 @@
 //: Playground - noun: a place where people can play
-var vklad:Double=100
+var fib0=0
+var fib=0
+var fib1=1
+var n=5
+while n > fib
+{
+fib=fib+fib0
+    fib0=fib1
+    fib1=fib
+    if n==0
+    {
+        fib1=0
+    }
+    
+
+print(fib)
+}
+print(fib)
+
+/*
+ var vklad:Double=100
 var procent:Double=0.1
 var y:Double=200
 var years=0
@@ -9,20 +29,23 @@ vklad=vklad+(procent * vklad)
 years=years+1
 }
 print(years)
-
-/*
-var x:Double=10
-var y:Double=20
-var k=1
-while x <= y
-{
-x=x+(0.1*x)
-    k=k+1
-}
-print(k)
-
 */
 
+/*
+var x:Double=1
+var y:Double=2
+var k=0
+while x < y
+{
+x=x+(0.1*x)
+    k+=1
+    print(x)
+}
+print(k)
+print(x)
+
+
+*/
 
 /*
 var n=9
