@@ -1,5 +1,16 @@
 //: Playground - noun: a place where people can play
+var vklad:Double=100
+var procent:Double=0.1
+var y:Double=200
+var years=0
+while vklad <= y
+{
+vklad=vklad+(procent * vklad)
+years=years+1
+}
+print(years)
 
+/*
 var x:Double=10
 var y:Double=20
 var k=1
@@ -9,6 +20,8 @@ x=x+(0.1*x)
     k=k+1
 }
 print(k)
+
+*/
 
 
 /*
