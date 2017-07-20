@@ -1,22 +1,56 @@
 //: Playground - noun: a place where people can play
+
+var a=41
+var b=20
+while a > b
+{
+if a > b*2 && a%2==0
+{
+    a=a/2
+    print(":2")
+    }
+else
+{
+    a=a-1
+print("-1")
+    }
+}
+
+/*
+ var fib=0
+var fib0=0
+var fib1=1
+var a=10
+var n=1
+while a > fib
+    {
+        fib=fib1+fib0
+        fib0=fib1
+        fib1=fib
+        n+=1
+}
+if a==fib
+{ print(n)
+}
+else {
+print("-1")
+}
+*/
+
+/*
 var fib0=0
 var fib=0
 var fib1=1
-var n=5
-while n > fib
+var n=7
+for i in 1...n-1
 {
-fib=fib+fib0
+fib=fib1+fib0
     fib0=fib1
     fib1=fib
-    if n==0
-    {
-        fib1=0
-    }
-    
-
-print(fib)
+   
 }
 print(fib)
+*/
 
 /*
  var vklad:Double=100
@@ -30,7 +64,6 @@ years=years+1
 }
 print(years)
 */
-
 /*
 var x:Double=1
 var y:Double=2
@@ -52,18 +85,14 @@ var n=9
 var i=0
 var k=0
 var s=1
-while i <= n
+while s <= n
 {
-if   s >= n
-{
-    print(k)
-break
-    }
     s=s*2
     
     k=k+1
     
 }
+print(k)
 */
 
 
@@ -81,7 +110,6 @@ while n != 1
     else
     {
         flag=false
-        print("no")
         break
     }
     
@@ -89,6 +117,10 @@ while n != 1
 if flag
     { print("da")
 }
+        else
+        {
+        print("no")
+        }
 */
 
 
