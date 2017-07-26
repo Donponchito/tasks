@@ -1,10 +1,16 @@
 //: Playground - noun: a place where people can play
 
+var a=3
+var b=5
+var n=1
+
+
+/*
 var a=41
 var b=20
 while a > b
 {
-if a > b*2 && a%2==0
+if a >= b*2 && a%2==0
 {
     a=a/2
     print(":2")
@@ -15,7 +21,7 @@ else
 print("-1")
     }
 }
-
+*/
 /*
  var fib=0
 var fib0=0
