@@ -1,19 +1,21 @@
 //: Playground - noun: a place where people can play
 
-func Election(x: Int, y:Int, z:Int)-> Int {
-    if x + y + z>1
-    {
-        return 1
+func prost (n: Int)
+{
+for i in 2...n-1
+{
+    if n%i==0 {
+        print("composit")
+        break
     }
-    else  {
-        
-        return 0
+    else {
+        print("prime")
+        break
     }
 }
-print(Election( x: 1, y: 1, z:0))
-
-
-
+}
+print(prost(n:64))
+print(prost(n:5))
 
 /*
  func Election(x: Bool, y:Bool, z:Bool)-> Bool {
