@@ -1,14 +1,25 @@
 //: Playground - noun: a place where people can play
-func stn(chislo: Int , stepen: Float) -> Float {
-    var proizved=1
-    for i in 1...stepen
-    {
-        proizved=1/(proizved * chislo)
+func arithmeticMean(_ numbers: Double...) -> Double {
+    var total: Double = 0
+    for number in numbers {
+        total += number
     }
-    return (Float(proizved))
+    return total / Double(numbers.count)
 }
-print(stn(chislo: 3 , stepen: 3))
+print(arithmeticMean(1, 2, 3, 4, 5))
 
+/*
+ func stn(a: Double , n: Double) -> Double {
+    var proizved=1
+    for i in n
+    {
+
+        proizved=(proizved * a)
+    }
+    return (Double (proizved))
+}
+print(stn(a: 3 , n: 3))
+*/
 
 /*
 func prost (n: Int)
