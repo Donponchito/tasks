@@ -1,5 +1,16 @@
 //: Playground - noun: a place where people can play
+func stn(chislo: Int , stepen: Float) -> Float {
+    var proizved=1
+    for i in 1...stepen
+    {
+        proizved=1/(proizved * chislo)
+    }
+    return (Float(proizved))
+}
+print(stn(chislo: 3 , stepen: 3))
 
+
+/*
 func prost (n: Int)
 {
 for i in 2...n-1
@@ -16,6 +27,9 @@ for i in 2...n-1
 }
 print(prost(n:64))
 print(prost(n:5))
+*/
+
+
 
 /*
  func Election(x: Bool, y:Bool, z:Bool)-> Bool {
@@ -58,8 +72,8 @@ print(prost(n:5))
  return (proizved)
  }
  print(stn(chislo: 3 , stepen: 3))
- */
 
+*/
 
 
 
