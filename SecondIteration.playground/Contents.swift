@@ -1,24 +1,31 @@
 //: Playground - noun: a place where people can play
-func arithmeticMean(_ numbers: Double...) -> Double {
+func Fibonachi(n:Int ) -> Int {
+    var fib0=0
+    var fib=0
+    var fib1=1
+for i in 1...n-1
+{
+    fib=fib1+fib0
+    fib0=fib1
+    fib1=fib
+    
+}
+    return fib
+}
+print(Fibonachi(n: 13))
+print(Fibonachi(n:4))
+print(Fibonachi(n: 15))
+print(Fibonachi(n: 20))
+
+/*
+ func arithmeticMean(_ numbers: Double...) -> Double {
     var total: Double = 0
     for number in numbers {
-        total += number
+        total += numbee
     }
     return total / Double(numbers.count)
 }
 print(arithmeticMean(1, 2, 3, 4, 5))
-
-/*
- func stn(a: Double , n: Double) -> Double {
-    var proizved=1
-    for i in n
-    {
-
-        proizved=(proizved * a)
-    }
-    return (Double (proizved))
-}
-print(stn(a: 3 , n: 3))
 */
 
 /*
