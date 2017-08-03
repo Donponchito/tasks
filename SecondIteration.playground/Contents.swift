@@ -1,5 +1,23 @@
 //: Playground - noun: a place where people can play
-func Fibonachi(n:Int ) -> Int {
+
+func stn(chislo: Double , stepen: Int) -> Double {
+    var proizved: Double=1
+    var a:Double = 0
+    for i in stepen ... -1
+    {
+        proizved=proizved * chislo
+        a=1/proizved
+    }
+    return Double(a)
+    
+}
+print(stn(chislo: 2 , stepen: -2))
+
+
+
+
+/*
+ func Fibonachi(n:Int ) -> Int {
     var fib0=0
     var fib=0
     var fib1=1
@@ -16,7 +34,7 @@ print(Fibonachi(n: 13))
 print(Fibonachi(n:4))
 print(Fibonachi(n: 15))
 print(Fibonachi(n: 20))
-
+*/
 /*
  func arithmeticMean(_ numbers: Double...) -> Double {
     var total: Double = 0
