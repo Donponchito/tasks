@@ -1,5 +1,31 @@
 //: Playground - noun: a place where people can play
 
+var str="Iteration"
+var vowels=0
+for i in str.characters   {
+    
+    if
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 var str = "ITSchool"
 var a = ""
 
@@ -9,7 +35,7 @@ for character in str.characters {
 }
 
 print(a)
-
+*/
 
 /*
 let str = "azamat"
