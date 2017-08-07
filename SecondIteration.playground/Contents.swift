@@ -1,5 +1,9 @@
 //: Playground - noun: a place where people can play
 
+let str = "azamat"
+let reversed = String(str.characters.reversed())
+print(reversed)
+/*
 func stn(chislo: Double , stepen: Int) -> Double {
     var proizved: Double=1
     var a:Double = 0
@@ -11,7 +15,8 @@ func stn(chislo: Double , stepen: Int) -> Double {
     return Double(a)
     
 }
-print(stn(chislo: 2 , stepen: -2))
+print(stn(chislo: 5 , stepen: -2))
+*/
 
 
 
