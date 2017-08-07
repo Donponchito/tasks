@@ -1,9 +1,23 @@
 //: Playground - noun: a place where people can play
 
+var str = "ITSchool"
+var a = ""
+
+for character in str.characters {
+    var asString = String(character)
+    a = asString + a
+}
+
+print(a)
+
+
+/*
 let str = "azamat"
 let reversed = String(str.characters.reversed())
 print(reversed)
-/*
+
+ */
+ /*
 func stn(chislo: Double , stepen: Int) -> Double {
     var proizved: Double=1
     var a:Double = 0
