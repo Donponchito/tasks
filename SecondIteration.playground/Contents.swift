@@ -4,9 +4,11 @@ var str="Iteration"
 var vowels=0
 for i in str.characters   {
     
-    if
+    if i=="a" ||   i=="e" ||  i=="o" || i=="i" || i=="u" || i=="y"    {
+    vowels+=1
+    }
 }
-
+print(vowels)
 
 
 
