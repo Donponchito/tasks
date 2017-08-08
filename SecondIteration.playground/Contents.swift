@@ -1,6 +1,9 @@
 //: Playground - noun: a place where people can play
-func Palindrome(text: String) -> Bool {
+
+/*
+ func Palindrome(text: String) -> Bool {
     var textArr=Array (text.characters)
+    
     for var i=0 , j=textArr.count - 1 ; i<j; i+=1, j-=1 {
         if textArr[i] != textArr[j] {
             return false
@@ -8,9 +11,10 @@ func Palindrome(text: String) -> Bool {
     }
     return true
 }
+*/
 
-/*
-var str="Iteration"
+var str="MARAT"
+str=qadxsstr.lowercased()
 var vowels=0
 for i in str.characters   {
     
@@ -19,7 +23,6 @@ for i in str.characters   {
     }
 }
 print(vowels)
-*/
 
 
 
