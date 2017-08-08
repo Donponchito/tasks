@@ -14,7 +14,7 @@
 */
 
 var str="MARAT"
-str=qadxsstr.lowercased()
+str=str.lowercased()
 var vowels=0
 for i in str.characters   {
     
