@@ -1,18 +1,19 @@
 //: Playground - noun: a place where people can play
+var str = "azam"
+var a = ""
+
+for character in str.characters {
+    var asString = String(character)
+    a = asString + a
+}
+if str==a    {
+print("palindrome")
+}
+else {
+    print("nepalindrome")
+}
 
 /*
- func Palindrome(text: String) -> Bool {
-    var textArr=Array (text.characters)
-    
-    for var i=0 , j=textArr.count - 1 ; i<j; i+=1, j-=1 {
-        if textArr[i] != textArr[j] {
-            return false
-        }
-    }
-    return true
-}
-*/
-
 var str="MARAT"
 str=str.lowercased()
 var vowels=0
@@ -23,7 +24,7 @@ for i in str.characters   {
     }
 }
 print(vowels)
-
+*/
 
 
 
